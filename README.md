@@ -85,9 +85,11 @@ Playbook is nothing but where we write code in yaml syntax and mention the plays
 So, we can mention one hosts grup in one task and another one in another task & in single play we can mention multiple tasks.
 After mentioning, we can execute the playbook by mentioning custoom inventory.ini or default path.
 if we mention hosts details in custom inventory, eg --> bhargav.ini then we need to execute the playbook as 
-  --> cmd   ansible-playbook -i bhargav.ini playbook.yaml 
+
+     --> cmd   ansible-playbook -i bhargav.ini playbook.yaml 
+     
 If we mention the hosts details in default path[/etc/ansible/hosts] then comamnd will be 
-  --> anisble-playbook playbook.yaml
+     --> anisble-playbook playbook.yaml
 
                    Ansible Roles
                    
