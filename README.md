@@ -61,8 +61,8 @@ MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@op
 PubkeyAuthentication yes
 PermitRootLogin no
 
-Restart ssh → Ubuntu → systemctl restart ssh
-                        Linux → systemctl restart sshd
+ --> Restart ssh → Ubuntu → systemctl restart ssh
+                 &  Linux → systemctl restart sshd
 
 Go back to control Node & now execute ssh-copy-id user@IP of server [pvt or pub]
 First time you will be asked password for the login and enter password and you will be logged into server successfully,
