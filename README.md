@@ -89,6 +89,7 @@ if we mention hosts details in custom inventory, eg --> bhargav.ini then we need
      --> cmd   ansible-playbook -i bhargav.ini playbook.yaml 
      
 If we mention the hosts details in default path[/etc/ansible/hosts] then comamnd will be 
+
      --> anisble-playbook playbook.yaml
 
                    Ansible Roles
