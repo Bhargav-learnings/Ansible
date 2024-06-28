@@ -14,7 +14,7 @@ what and why and how to implemt Ansible
 Inventory is the heart of Ansible, & Inventory is nothing but a file where we mention our remote or manage nodes details.
 Ansible will be Installed in Control nodes & no need to install on Manage nodes
 
-Inventory
+              Inventory
 
 We can create inventory either in a playbook which is yaml or creating files by ini extension.
 We can create inventory in any location of the server but while executing the ansible command we must pass the location of the inventory.ini to execute those on remote servers which are mentioned in inventory.ini.
