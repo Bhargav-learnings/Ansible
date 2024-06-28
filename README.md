@@ -15,6 +15,7 @@ Inventory is the heart of Ansible, & Inventory is nothing but a file where we me
 Ansible will be Installed in Control nodes & no need to install on Manage nodes
 
 Inventory
+
 We can create inventory either in a playbook which is yaml or creating files by ini extension.
 We can create inventory in any location of the server but while executing the ansible command we must pass the location of the inventory.ini to execute those on remote servers which are mentioned in inventory.ini.
 These are useful when we work multiple requirements so we can create custom inventory.ini and can execute based on the requirement.
@@ -27,6 +28,7 @@ We can't mention the playbook in .ini and execute like a Ad hoc commands
 
 
 Ad hoc commands →
+
 These are useful when we want do simple tasks like installing java or updating packages,
 Playbooks → these are useful when we want to do complicated tasks on remote servers, so a playbook is a good option(these are written in yaml, which are sharbale and also we can use it as modules).
 
