@@ -78,7 +78,7 @@ Now, ansible will execute the command touch bhargav on all servers which are und
 
 Also we can mention the single server instead of the group name.
 
-            Ansible Playbook (written in yaml)
+            **Ansible Playbook (written in yaml)**
 Playbook is nothing but where we write code in yaml syntax and mention the plays or play & task details.
   --> plays --> nothing but each play refer to specific tasks 
                 eg: we hv to install specific tasks on dfnt hosts groups.
@@ -86,11 +86,11 @@ So, we can mention one hosts grup in one task and another one in another task & 
 After mentioning, we can execute the playbook by mentioning custoom inventory.ini or default path.
 if we mention hosts details in custom inventory, eg --> bhargav.ini then we need to execute the playbook as 
 
-     --> cmd   ansible-playbook -i bhargav.ini playbook.yaml 
+     **ansible-playbook -i bhargav.ini playbook.yaml** 
      
 If we mention the hosts details in default path[/etc/ansible/hosts] then comamnd will be 
 
-     --> anisble-playbook playbook.yaml
-
-                   Ansible Roles
+      **anisble-playbook playbook.yaml
+**
+                  ** Ansible Roles**
                    
